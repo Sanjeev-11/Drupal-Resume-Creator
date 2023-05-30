@@ -1,0 +1,7 @@
+resume.my_module_list:
+  path: '/resumelist'
+  defaults:
+    _controller: '\Drupal\resume\Controller\resumeController::resumeList'
+    _title: 'Resume Creator'
+  requirements:
+    _permission: 'access content'

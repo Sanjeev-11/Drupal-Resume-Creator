@@ -1,0 +1,5 @@
+name: "Resume Module"
+description: "Module for Resume Creater"
+type: module
+core_version_requirement: ^8 || ^9
+

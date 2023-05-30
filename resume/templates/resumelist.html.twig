@@ -1,0 +1,21 @@
+{{ attach_library('resume/resume-style') }}
+{{ form }}
+
+  
+    {% for resume in details %}
+    <h3>Name: {{resume.Name}}</h3>
+    <h3>Email: {{resume.Email}}</h3>
+    <h3>Phone: {{resume.Phone}}</h3>
+    <h3>Address: {{resume.Address}}</h3>
+    <h3>PG: {{resume.PG}}</h3>
+    <h3>UG: {{resume.UG}}</h3>
+    <h3>Tenth: {{resume._10}}</h3>
+    <h3>Twelfth: {{resume._12}}</h3>
+    <h3>Intern/Employment Details: {{resume.WorkExp}}</h3>
+    <h3>Skills: {{resume.Skills}}</h3>
+
+    
+    {% endfor %}
+  
+
+
